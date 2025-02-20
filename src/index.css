@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+}
+
+/* global.css */
+@media (max-width: 960px) {
+  /* styles for medium-sized screens */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* styles for small-sized screens */
+  body {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
