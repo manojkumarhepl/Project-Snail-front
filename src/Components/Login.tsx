@@ -83,7 +83,7 @@ const Login = () => {
                         color="primary" 
                         fullWidth sx={{ mt: 2, fontSize: '1em' }}
                     >
-                        Login
+                        Sign In
                     </Button>
                 </form>
             </Box>
